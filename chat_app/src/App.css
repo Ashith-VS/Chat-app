@@ -1,0 +1,153 @@
+body {
+  height: 100vh;
+  background-color: #7881a2;
+}
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.containerbor {
+  border: 1px solid white;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 85vh;
+  background: #ddddf7;
+}
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+  /* width: 40%; */
+  height: 100%;
+}
+.Sidebar {
+  background-color: aliceblue;
+  /* height: 100%; */
+  overflow-y: scroll;
+}
+/* .row { */
+/* width: 85%;
+  height: 90%; */
+/* overflow: hidden; */
+/* } */
+
+.card {
+  width: inherit;
+}
+.card-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.navbar {
+  background-color: powderblue;
+  font-size: 21px;
+  color: #06315c;
+  padding-left: 25px;
+}
+.logo {
+  cursor: pointer;
+}
+.user {
+  cursor: pointer;
+}
+.navbar button {
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 2px;
+  border: 1px solid white;
+}
+img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.search input {
+  width: 100%;
+  margin-top: 9px;
+}
+.chatList {
+  cursor: pointer;
+  color: black;
+}
+.chatItem:hover {
+  border-radius: 5px;
+  background-color: #343131;
+  padding: 10px;
+  color: white;
+}
+.chat {
+  margin-left: -25px;
+  margin-right: -25px;
+  font-size: 21px;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.messagess {
+  /* height: 500px  */
+  height: 70vh;
+  /* background-color: #ddddf7; */
+  /* overflow: hidden; */
+  margin: 0px -25px;
+  overflow: auto;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .message {
+    display: flex;
+    gap: 0px;
+  }
+  .messageInfo {
+    display: flex;
+    flex-direction: column;
+    /* color: gray; */
+    margin-bottom: 20px;
+    img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+  .messageContent {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    p {
+      border: white;
+      padding: 10px 20px;
+      border-radius: 0px 10px 10px 10px;
+      max-width: max-content;
+    }
+    img {
+      width: 50%;
+    }
+  }
+
+  .owner {
+    flex-direction: row-reverse;
+    */ .messageContent {
+      align-items: flex-end;
+      p {
+        background-color: #8da4f1;
+        color: white;
+        border-radius: 10px 0px 10px 10px;
+      }
+    }
+  }
+
+  .card-body {
+    height: fit-content;
+  }
+}
